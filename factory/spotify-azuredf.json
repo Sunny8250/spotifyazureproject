@@ -1,0 +1,15 @@
+{
+	"name": "spotify-azuredf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abd6c8ac-4de6-452a-a51b-1f6afc6cae3a",
+		"tenantId": "e2dbe144-5716-4df0-9630-5ad1766a55f5"
+	}
+}
